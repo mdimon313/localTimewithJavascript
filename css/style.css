@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Macondo&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Macondo', cursive;
+    height: 100vh;
+    background-image: linear-gradient(to right, #4568DC,#B06AB3);
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+.headBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.heading,
+.headingTitle {
+    text-align: center;
+}
+.heading {
+    font-family: 'Diplomata', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: relative;
+}
+.heading::before {
+    content:"";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;    
+    background-color: #e2e2e2;
+}
+.headingTitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.gtm {
+    margin-right: .5rem;
+}
+p.day {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#day,
+#date,
+#month,
+#year {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 .5rem;
+}
+.timeBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.hour,
+.min,
+.sec {
+    width: 100px;
+    text-align: center;
+    background-color: #7d5fff;
+    padding: 1rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 15px -2px #e2e2e2;
+}
+#hour,
+#min,
+#sec {
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 5px rgb(182, 182, 182);
+    margin-bottom: rem;
+}
+
+.hours,
+.minutes,
+.seconds {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+.ap {
+    width: 80px;
+    text-align: center;
+    background-color: #7d5fff;
+    padding: 1rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 15px -2px #e2e2e2;
+    color: #fff
+}
